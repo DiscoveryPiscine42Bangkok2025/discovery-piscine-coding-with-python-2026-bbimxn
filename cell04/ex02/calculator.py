@@ -1,0 +1,7 @@
+num1 = int(input("Give me first num: "))
+num2 = int(input("Give me second num: "))
+print("Thnak you!")
+print(num1,"+",num2,"=",num1+num2)
+print(num1,"-",num2,"=",num1-num2)
+print(num1,"/",num2,"=",round(num1/num2))
+print(num1,"*",num2,"=",num1*num2)
