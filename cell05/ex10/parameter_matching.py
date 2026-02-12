@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
 
 import sys
-print("What was the parameter? ")
-parameter = "Sorry"
 
 if len(sys.argv) < 2:
     print("none")
 else:
-    if sys.argv[1] == parameter:
+    parameter = sys.argv[1]
+    user_input = input("What was the parameter? ")
+    if user_input == parameter:
         print("Good job!")
     else:
         print("Nope,sorry...")
